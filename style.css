@@ -1,0 +1,65 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* we don't give height in body because during response 
+    time it creates problem when we give static height. */
+    
+    /* height: 600px; */
+    /* background-color: aqua; */
+    background-image: url('../image/scenary.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 100% 100%; */
+}
+
+.navbar{
+    background-color: rgb(43, 64, 6);
+    padding: 10px 100px;
+    height: 60px;
+}
+
+.nav_brand{
+    float: left;
+    padding: 5px;
+    /* clear: right; */
+    /* font-size: 30px; */
+}
+.nav_links{
+    float: right;
+}
+
+ul li{
+    display: inline-block;
+
+    /* padding-top middle me lane ke liye kiya gya 
+     hai LOGO, Lorem, Nisi...
+    margin-top bhi hota hai */
+    padding-top: 10px;
+
+    list-style: none;
+    /* written words me gol bulleting chala jayega  */
+
+    /* creating gap in between written use margin.And 0 
+    because niche niche chahiye nahi aur 10px because side 
+     se gapping chahiye
+     */
+    margin: 0 10px;
+}
+a{
+    /* text-decoration: none dene se underline chala jayega  */
+    text-decoration: none;
+
+    /* total written ka color white ho jayega  */
+    color: white;
+}
+.logo{
+    font-family: "Playwrite IN", serif;
+    font-size: 20px;
+} 
